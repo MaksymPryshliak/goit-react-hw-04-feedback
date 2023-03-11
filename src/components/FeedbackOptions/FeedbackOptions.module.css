@@ -1,0 +1,20 @@
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.FeedbackButton {
+  padding: 10px 25px;
+  border-radius: 15px;
+  font-size: 17px;
+  border: 1px solid #5d676a;
+}
+
+.FeedbackButton:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 300ms;
+}
